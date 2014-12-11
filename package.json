@@ -1,0 +1,14 @@
+{
+  "name": "TourGuides",
+  "version": "1.0.0",
+  "description": "M2C Final Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^1.0.21"
+  }
+}

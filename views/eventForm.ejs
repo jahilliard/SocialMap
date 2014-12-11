@@ -1,0 +1,18 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/javascripts/clientSocket.js"></script>
+
+<h1> Event: <%=eventcurr.name%></h1>
+<h2> Score: <%=eventcurr.score%></h2>
+
+<form>
+Event Name: <input type="text" name="name" placeholder = <%=eventcurr.name%>><br>
+Event Type: <input type="text" name="type" placeholder = <%=eventcurr.type%>><br>
+Event Time: <input type="text" name="type" placeholder = <%=eventcurr.datetime%>><br>
+<input type="submit" name="Update Event" value = "submit">
+</form>
+
+<ul id="messages"></ul>
+<input id="m"/><button id="s">Send</button>
+
+<br>
