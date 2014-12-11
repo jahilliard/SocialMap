@@ -64,4 +64,4 @@ app.get("/event", routes.GotoEventPage);
 routes.ioInit(io);
 
 
-httpServer.listen(50000, function() {console.log('Listening on 50000');});
+httpServer.listen(80, function() {console.log('Listening on 50000');});
